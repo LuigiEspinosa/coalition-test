@@ -1,5 +1,12 @@
-<script setup></script>
+<script setup>
+import HeaderVue from "@/components/HeaderVue.vue";
+import BannerVue from "@/components/Banner/BannerVue.vue";
+</script>
 
 <template>
-  <div class="text-red-400">COALITION TEST</div>
+  <HeaderVue />
+  <BannerVue />
+  <!-- Gallery -->
+  <!-- Tabs - Accordion -->
+  <!-- Footer -->
 </template>
